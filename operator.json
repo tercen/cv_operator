@@ -1,5 +1,5 @@
 {
-  "name": "Standard deviation",
+  "name": "CV",
   "description": "Compute the coefficient of variance per cell",
   "tags": ["basic statistics"],
   "authors": ["tercen"],
