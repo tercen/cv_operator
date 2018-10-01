@@ -11,12 +11,12 @@ Input projection|.
 
 Output relations|.
 ---|---
-`cv`| numeric, coefficien of variation result per cell
+`cv`| numeric, coefficient of variation result per cell
 
 ##### Details
 The coefficcient of variation is a measure of variaton, it is equivalent to standard deviation divided by the mean.
 ```r
-`cv = sd/mean
+cv = sd/mean
 ```
 The `cv` is returned as a fraction.
 
