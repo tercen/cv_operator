@@ -1,16 +1,32 @@
-# coefficient of variation  : cv
+# cv operator
 
-Caculates the coefficient of variation
+#### Description
+`cv` operator calculates the coefficient of variance on a set of input values.
 
-# Repository
+##### Usage
+Input projection|.
+---|---
+`y-axis`| values to be used for the calculation of the cv, per cell
+
+
+Output relations|.
+---|---
+`cv`| numeric, coefficien of variation result per cell
+
+##### Details
+The coefficcient of variation is a measure of variaton, it is equivalent to standard deviation divided by the mean.
+```r
+`cv = sd/mean
 ```
-https://github.com/tercen/cv_operator.git
-```
+The `cv` is returned as a fraction.
 
-# Feedback
+#### References
+see the https://en.wikipedia.org/wiki/Coefficient_of_variation
 
-* Log feedback/issues at (https://github.com/tercen/cv_operator/issues)
 
-# Documentation
+##### See Also
+[sd](https://github.com/tercen/sd_operator), [mean](https://github.com/tercen/mean_operator)
 
-* see doc directory
+#### Examples
+
+
