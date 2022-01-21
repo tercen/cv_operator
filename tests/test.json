@@ -3,7 +3,7 @@
   "name": "cv_operator",
   "namespace": "test",
   "inputDataUri": "c03_simple_exp.tsv",
-  "outputDataUri": ["table1.csv"],
+  "outputDataUri": ["table1.csv","table2.csv"],
   "columns": [],
   "rows": ["Variable"],
   "colors": [],
