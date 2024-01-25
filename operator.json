@@ -1,10 +1,14 @@
 {
   "name": "CV",
   "description": "Coefficient of Variation: Calculates a standardized measure of dispersion of a frequency distribution. It is often expressed as a percentage, and is defined as the ratio of the standard deviation to the mean ",
-  "tags": ["basic statistics"],
-  "authors": ["tercen"],
-  "urls": ["https://github.com/tercen/cv_operator"],
+  "tags": [
+    "descriptive statistics"
+  ],
+  "authors": [
+    "tercen"
+  ],
+  "urls": [
+    "https://github.com/tercen/cv_operator"
+  ],
   "properties": []
 }
-
-
