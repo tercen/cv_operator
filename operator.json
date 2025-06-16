@@ -1,6 +1,6 @@
 {
   "name": "CV",
-  "description": "Computes the Coefficient of Variation, is a standardised measure of dispersion of a probability or frequency distribution.",
+  "description": "Computes the Coefficient of Variation, is a standardized measure of dispersion of a probability or frequency distribution.",
   "tags": [
     "descriptive statistics"
   ],
@@ -10,5 +10,33 @@
   "urls": [
     "https://github.com/tercen/cv_operator"
   ],
-  "properties": []
+  "properties": [],
+  "operatorSpec": {
+    "kind": "OperatorSpec",
+    "ontologyUri": "https://tercen.com/_ontology/tercen",
+    "ontologyVersion": "0.0.1",
+    "inputSpecs": [
+      {
+        "kind": "CrosstabSpec",
+        "metaFactors": [],
+        "axis": [
+          {
+            "kind": "AxisSpec",
+            "metaFactors": [
+              {
+                "kind": "MetaFactor",
+                "name": "Value",
+                "type": "numeric",
+                "description": "Values to be used for the calculation of the CV, per cell",
+                "ontologyMapping": "measurement",
+                "crosstabMapping": "y",
+                "cardinality": "1",
+                "factors": []
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
 }
