@@ -47,7 +47,7 @@
               {
                 "kind": "MetaFactor",
                 "name": "Value",
-                "type": "numeric",
+                "type": "double",
                 "description": "Values to be used for the calculation of the CV, per cell",
                 "ontologyMapping": "measurement",
                 "crosstabMapping": "y",
